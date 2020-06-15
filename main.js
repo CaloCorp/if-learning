@@ -1,10 +1,56 @@
 /******************************
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
+const isItLong = function (str){
+if (str.length > 20)
 
+return "That's a long string!"
+}
 
+const isItMedium = function(str){
 
+  if (str.length >= 10 && str.length <= 20 )
 
+  return "That's a regular sized string!"
+
+}
+
+const isItShort = function (str){
+
+  if (str.length < 10)
+
+  return "That's a small string!"
+
+  else return "That's not a small string!"
+}
+
+const howLongIsMyString = function(str){
+  if (str.length > 20)
+
+  return "That's a long string!"
+else if (str.length >= 10 && str.length <= 20 )
+return "That's a regular sized string!"
+
+else if (str.length < 10)
+
+return "That's a small string!"
+
+else return "That's not a small string!"
+
+}
+const instructorHeight = function (str){
+
+  if (str==='Colin')
+
+  return 62
+
+else if (str==='Mesuara')
+
+return 67
+
+else return "I don't know that instructor!"
+
+}
 
 
 /**********************************
